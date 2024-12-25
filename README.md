@@ -26,7 +26,7 @@
 
 1. Создать [Deployment](https://github.com/SeNike/k8s-1.3/blob/main/nginx-deployment.yaml) приложения nginx и обеспечить старт контейнера только после того, как будет запущен сервис этого приложения.
 2. Убедиться, что nginx не стартует. В качестве Init-контейнера взять busybox.
-3. Создать и запустить Service. Убедиться, что Init запустился.
+3. Создать и запустить [Service](https://github.com/SeNike/k8s-1.3/blob/main/nginx-service.yaml). Убедиться, что Init запустился.
 4. Продемонстрировать состояние пода до и после запуска сервиса.
 
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/1.3/6.png)
