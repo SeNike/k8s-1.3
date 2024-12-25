@@ -15,7 +15,7 @@
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/1.3/4.png)
 
 3. Продемонстрировать количество подов до и после масштабирования.
-4. Создать [Service](https://github.com/SeNike/k8s-1.3/blob/main/multitool-pod.yaml), который обеспечит доступ до реплик приложений из п.1.
+4. Создать [Service](https://github.com/SeNike/k8s-1.3/blob/main/nginx-multitool-service.yaml), который обеспечит доступ до реплик приложений из п.1.
 5. Создать отдельный [Pod](https://github.com/SeNike/k8s-1.3/blob/main/multitool-pod.yaml) с приложением multitool и убедиться с помощью `curl`, что из пода есть доступ до приложений из п.1.
 
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/1.3/5.png)
