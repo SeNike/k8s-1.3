@@ -2,7 +2,7 @@
 
 ### Задание 1. Создать Deployment и обеспечить доступ к репликам приложения из другого Pod
 
-1. Создать Deployment приложения, состоящего из двух контейнеров — nginx и multitool. Решить возникшую ошибку.
+1. Создать [Deployment](https://github.com/SeNike/k8s-1.3/blob/main/deployment.yaml) приложения, состоящего из двух контейнеров — nginx и multitool. Решить возникшую ошибку.
 
 ![IMG](https://github.com/SeNike/Study_24/blob/main/k8s/1.3/1.png)
 
